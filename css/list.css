@@ -1,0 +1,166 @@
+/*这个文件里面放的是 手机列表页面的样式*/
+.sk {
+	position: absolute;
+	left: 185px;
+	top: 41px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	text-align: center;
+	border-left: 1px solid #B1191A;
+}
+
+.list_left {
+	float: left;
+	padding-left: 30px;
+}
+.list_left li,
+.list_right li {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	margin-right: 50px;
+	text-align: center;
+}
+.list_left li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.list_right {
+	float: left;
+}
+.list_right li {
+	margin-right: 40px;
+}
+.list_right li a {
+	font-family: 'icomoon';
+	font-size: 15px;
+	font-weight: 700;
+	color: #666;
+}
+.list_left li a:hover,
+.list_right li a:hover {
+	color: #D21523;
+}
+.content_bd {
+	margin-top: 20px;
+}
+.content_bd ul {
+	width: 1212px;
+}
+.content_bd li {
+	float: left;
+	margin: 0 12px 15px 0;
+}
+.goods {
+	/*display: block;*/
+	position: relative;
+	padding: 0 5px;
+	width: 278px;
+	height: 460px;
+	/*这里有点疑惑，不跟父盒子给边框就会有bug，给了就没有，奇怪*/
+	border: 1px solid transparent;
+	background: #fff;
+}
+.goods:hover {
+	border: 1px solid #E12228;
+}
+.goods .pic {
+	text-align: center;
+}
+.goods h5 {
+	font-size: 16px;
+	color: #666;
+	font-weight: 400;
+}
+.goods_price {
+	margin: 8px 0;
+}
+.goods_price strong {
+	font-size: 22px;
+	color: #E60012;
+}
+.goods_price del {
+	font-size: 14px;
+	font-weight: 700;
+	color: #A4A4A4;
+}
+.goods_progress {
+	font-size: 12px;
+	color: #666;
+}
+.goods_progress em {
+	color: #F24349;
+}
+.goods_progress .bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border-radius: 5px;
+	border: 1px solid #B1191A;
+	vertical-align: middle;
+	margin: 0 5px;
+	/*background: red;*/
+}
+.goods_progress .bar_in {
+	width: 80%;
+	height: 10px;
+	background: #f24349;
+}
+.goods_buy {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 288px;
+	height: 50px;
+	background: #B1191A;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 50px;
+}
+.page {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.page_num {
+	display: inline-block;
+}
+.page a{
+	display: inline-block;
+	padding: 10px 15px;
+	background: #F7F7F7;
+	color: #666;
+	border: 1px solid #ccc;
+}
+.page_num .active {
+	border: 1px solid transparent;
+	background: transparent;
+}
+.page_num i {
+	margin: 0 10px;
+}
+.page a:hover {
+	color: #E33333;
+}
+.page_skip input,
+.page_skip button {
+	height: 40px;
+	width: 30px;
+	background: #F7F7F7;
+	border: 1px solid #ccc;
+	color: #666;
+	transition: all .5s;
+}
+.page_skip input:focus {
+  width: 80px;
+  border: 1px solid skyblue;
+}
+.page_skip button {
+	width: 50px;
+	background: #fff;
+	color: #000;
+}

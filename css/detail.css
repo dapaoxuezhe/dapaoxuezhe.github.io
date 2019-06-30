@@ -1,0 +1,281 @@
+/*这是手机详情页面的CSS*/
+.iphone_left {
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	margin-right: 80px;
+}
+.il_text i {
+	font-family: 'icomoon';
+	padding: 5px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.il_pic {
+	width: 400px;
+	height: 400px;
+	margin-top: 3px;
+	margin-bottom: 60px;
+	border: 1px solid #ccc;
+}
+.il_pic img {
+	width: 400px;
+}
+.il_select {
+	width: 400px;
+}
+.il_select li {
+	float: left;
+	padding: 0 5px;
+}
+.il_select li img {
+	vertical-align: middle;
+}
+.il_select .you {
+	float: right;
+}
+.il_select .zuo,
+.il_select .you {
+	padding-top: 12px;
+}
+.il_select_two {
+	border: 2px solid #C81623;
+	box-sizing: border-box;
+}
+.iphone_right {
+	width: 720px;
+	margin-top: 50px;
+}
+.iphone_right h3 {
+	font-size: 16px;
+	color: #666;
+}
+.iphone_right>p {
+	margin: 8px 0;
+	color: #E12228;
+}
+.iphone_price {
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-top: 10px;
+	background: #FEE9EB;
+}
+.pri {
+	position: relative;
+	margin-bottom: 20px;
+}
+.pri em {
+	padding-left: 40px;
+	font-size: 22px;
+	color: #E12228;
+}
+.pri a {
+	padding-left: 5px;
+	color: #E12228;
+}
+.pri span {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+}
+.sell {
+	padding-bottom: 15px;
+}
+.sell i {
+	display: inline-block;
+	line-height: 20px;
+	background: #C81623;
+	font-size: 14px;
+	color: #fff;
+}
+.sell span {
+	display: inline-block;
+	margin-left: 40px;
+	line-height: 40px;
+}
+.sell em {
+	display: inline-block;
+	margin-top: 15px;
+	vertical-align: top;
+}
+.iphone_right .support span {
+	padding-left: 40px;	
+}
+.iphone_right .support {
+	padding-left: 5px;
+	color: #666;	
+}
+.color,
+.grade,
+.buy {
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.color  span,
+.grade span,
+.buy span {
+	display: inline-block;
+	margin-right: 5px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #F7F7F7;
+	border: 1px solid #EDEDED;
+	text-align: center;
+}
+.color span:hover,
+.grade span:hover,
+.buy span:hover {
+	color: #E33333;
+	border: 1px solid #C81623;
+}
+.color i,
+.grade i,
+.buy i {
+	margin-right: 20px;
+}
+.color .red,
+.grade .red,
+.buy .red {
+	border: 1px solid #C81623;
+}
+.buycount {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #EDEDED;
+}
+.buycount_left {
+	width: 29px;
+	border-right: 1px solid #EDEDED;
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+}
+.jia,
+.jian{
+	height: 24px;
+	width: 20px;
+	line-height: 24px;
+	text-align: center;
+}
+.jia {
+	border-bottom: 1px solid #EDEDED;
+}
+.jia:hover {
+	color: #C81623;
+}
+.jian:hover{
+	cursor: not-allowed;
+}
+.buykey a {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	margin-left: 10px;
+	background: #C81623;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+}
+.buykey a:hover {
+	color: #E33332;
+}
+.show {
+	width: 1205px;
+	margin-bottom: 30px;
+}
+.show_left {
+	width: 210px;
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
+}
+.show_left_tit li {
+	float: left;
+	width: 50%;
+}
+.show_left_tit a {
+	display: block;
+	height: 34px;
+	border-bottom: 1px solid #CCCCCC;
+	background: #F1F1F1;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+}
+.bianjie {
+	border-right: 1px solid #CCCCCC;
+}
+.show_left_tit a:hover {
+	background: #fff;
+	border-bottom: none;
+}
+.iphone_box {
+	margin: 0 10px;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+}
+.iphone_box h4 {
+	text-align: left;
+}
+.iphone_box button {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	color: #666;
+}
+.iphone_box button:hover {
+	color: #E33333;
+}
+.show_right {
+	width: 970px;
+}
+.show_right_tit {
+	height: 35px;
+	border: 1px solid #CCCCCC;
+	background: #F1F1F1;
+}
+.show_right_tit li {
+	float: left;
+}
+.show_right_tit li a {
+	display: block;
+	padding: 0 20px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+}
+.show_right_tit li a:hover {
+	color: #fff;
+	background: #C81623;
+}
+.show_right_tit .hong {
+	color: #fff;
+	background: #C81623;
+}
+.show_right_text {
+	position: relative;
+	padding-left: 20px;
+	padding-top: 20px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.show_right_text p {
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+	font-weight: 700;
+}
+.show_right_text i {
+	font-family: 'icomoon';
+	font-weight: 700;
+}
+.show_right_pic {
+	margin: auto;
+}
